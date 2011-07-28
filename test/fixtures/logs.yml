@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  log: MyString
+  channel_id: 1
+  nick_id: 1
+  is_privmsg: false
+
+two:
+  log: MyString
+  channel_id: 1
+  nick_id: 1
+  is_privmsg: false
