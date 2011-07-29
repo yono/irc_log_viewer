@@ -13,7 +13,7 @@
   <tr>
     <td><%= log.channel.name %></td>
     <td><%= log.nick.name %></td>
-    <td><%= log.log %></td>
+    <td><%= auto_link(log.log, :all, :target=>"_blank").html_safe %></td>
   </tr>
 <% end %>
 </table>

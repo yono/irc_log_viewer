@@ -32,3 +32,6 @@ gem 'unicorn'
 
 # use pagination
 gem 'kaminari'
+
+# from url to link
+#gem 'rails_autolink'
