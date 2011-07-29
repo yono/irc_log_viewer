@@ -33,5 +33,8 @@ gem 'unicorn'
 # use pagination
 gem 'kaminari'
 
+# for jquery
+gem 'jquery-rails'
+
 # from url to link
 #gem 'rails_autolink'
