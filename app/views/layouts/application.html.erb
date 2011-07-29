@@ -8,7 +8,29 @@
 </head>
 <body>
 
+<div id="body">
+
+<div id="header">
+<h1>IRC Log Viewer</h1>
+</div>
+
+<div id="sidebar">
+<h2>チャンネル一覧</h2>
+<ul>
+<% Channel.all.each do |channel| %>
+<li><%= link_to truncate(channel.name), channel%></li>
+<% end %>
+</ul>
+</div>
+
+<div id="main">
 <%= yield %>
+</div>
+
+<div id="hooter">
+</div>
+
+</div>
 
 </body>
 </html>
