@@ -11,8 +11,8 @@
 
 <% @logs.each do |log| %>
   <tr>
-    <td><%= log.channel.name %></td>
-    <td><%= log.nick.name %></td>
+    <td><%= link_to log.channel.name, log.channel %></td>
+    <td><%= link_to log.nick.name, log.nick %></td>
     <td><%= auto_link(log.log, :all, :target=>"_blank").html_safe %></td>
   </tr>
 <% end %>
