@@ -77,3 +77,12 @@ div.field, div.actions {
   float: left;
   width: 780px;
 }
+
+#main tbody tr.even {
+  background-color: #EEEEEE;
+}
+
+#main thead tr {
+  background-color: #444444;
+  color: #FFFFFF;
+}
