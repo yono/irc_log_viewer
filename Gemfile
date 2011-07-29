@@ -29,3 +29,6 @@ gem 'unicorn'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+# use pagination
+gem 'kaminari'

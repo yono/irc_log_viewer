@@ -2,7 +2,8 @@ class LogsController < ApplicationController
   # GET /logs
   # GET /logs.xml
   def index
-    @logs = Log.find(:all, :limit => 30, :order => 'created_on desc')
+    #@logs = Log.find(:all, :limit => 30, :order => 'created_on desc')
+    @logs = Log.order('created_on DESC').page params[:page]
 
     respond_to do |format|
       format.html # index.html.erb
