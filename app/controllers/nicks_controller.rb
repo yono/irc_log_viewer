@@ -14,6 +14,7 @@ class NicksController < ApplicationController
   # GET /nicks/1.xml
   def show
     @nick = Nick.find(params[:id])
+    @logs = Log.where(:nick_id => @nick).order('created_on DESC').page params[:page]
 
     respond_to do |format|
       format.html # show.html.erb

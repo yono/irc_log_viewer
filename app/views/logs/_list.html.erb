@@ -1,0 +1,23 @@
+<%= paginate @logs %>
+
+<table>
+  <thead>
+  <tr>
+    <th>Channel</th>
+    <th>Nick</th>
+    <th>Log</th>
+  </tr>
+  </thead>
+
+  <tbody>
+<% @logs.each do |log| %>
+  <tr>
+    <td><%= link_to log.channel.name, log.channel %></td>
+    <td><%= link_to log.nick.name, log.nick %></td>
+    <td><%= auto_link(log.log, :all, :target=>"_blank").html_safe %></td>
+  </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= paginate @logs %>
