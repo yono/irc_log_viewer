@@ -59,6 +59,10 @@ div.field, div.actions {
   text-decoration: none;
 }
 
+#header div#search {
+  float:right;
+}
+
 #body {
   margin: 0 auto;
   width: 1000px;

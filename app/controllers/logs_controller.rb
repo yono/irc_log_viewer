@@ -2,7 +2,6 @@ class LogsController < ApplicationController
   # GET /logs
   # GET /logs.xml
   def index
-    #@logs = Log.find(:all, :limit => 30, :order => 'created_on desc')
     @logs = Log.order('created_on DESC').page params[:page]
 
     respond_to do |format|
@@ -21,6 +20,7 @@ class LogsController < ApplicationController
       format.xml  { render :xml => @log }
     end
   end
+
 
   # GET /logs/new
   # GET /logs/new.xml
