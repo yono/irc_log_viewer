@@ -84,6 +84,7 @@ div.field, div.actions {
 #main {
   float: left;
   width: 780px;
+  margin-bottom: 50px;
 }
 
 #main tbody tr.even {
@@ -91,6 +92,10 @@ div.field, div.actions {
 }
 
 #main thead tr {
-  background-color: #444444;
+  background-color: #000066;
   color: #FFFFFF;
+}
+
+#footer {
+  clear: both;
 }
