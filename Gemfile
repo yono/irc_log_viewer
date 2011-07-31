@@ -36,5 +36,9 @@ gem 'kaminari'
 # for jquery
 gem 'jquery-rails'
 
+group :development do
+  gem 'rails-erd'
+end
+
 # from url to link
 #gem 'rails_autolink'
