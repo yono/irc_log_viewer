@@ -20,7 +20,11 @@ Download or git clone this repository.
     $ git clone git://github.com/yono/irc_log_viewer.git
     $ cd irc_log_viewer
 
-cp config/database.yml.sample to config/database.yml.
+Install modules with bundle install.
+
+    $ bundle install
+
+Copy config/database.yml.sample to config/database.yml.
 
     $ cp config/database.yml.sample config/database.yml
 
