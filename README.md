@@ -2,6 +2,9 @@
 
 This is a irc log viewer for tiarra.
 
+[![Dependency Status](https://gemnasium.com/yono/irc_log_viewer.png)](https://gemnasium.com/yono/irc_log_viewer)
+[![Code Climate](https://codeclimate.com/github/yono/irc_log_viewer.png)](https://codeclimate.com/github/yono/irc_log_viewer)
+
 ## Requirements
 
 - [tiarra](http://www.clovery.jp/tiarra/)
