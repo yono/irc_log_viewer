@@ -4,3 +4,6 @@ log/*.log
 tmp/
 config/database.yml
 *.swp
+/vendor/bundle
+.ruby-version
+/public/assets

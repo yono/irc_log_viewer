@@ -1,11 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+#gem 'rails', '3.0.9'
+gem 'rails', '3.2.13'
+
+gem 'rails_autolink'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '~> 0.2.6'
+#gem 'mysql2', '~> 0.2.6'
+gem 'mysql2', '~> 0.3'
 
 # Use unicorn as the web server
 gem 'unicorn'
@@ -38,6 +42,13 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rails-erd'
+end
+
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 # from url to link
