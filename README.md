@@ -9,7 +9,7 @@ This is a irc log viewer for tiarra.
 
 - [tiarra](http://www.clovery.jp/tiarra/)
   - [Log::DBI](http://d.hatena.ne.jp/woremacx/20080404/1207260356)
-- Ruby 1.9.2
+- Ruby 2.0.0
 
 ## Usage
 
@@ -25,7 +25,7 @@ Download or git clone this repository.
 
 Install modules with bundle install.
 
-    $ bundle install
+    $ bundle install --path vendor/bundle
 
 Copy config/database.yml.sample to config/database.yml.
 
@@ -39,4 +39,4 @@ You need to input database info.
 
 After that, you can start irc_log_viewer with rails s.
 
-    $ rails s
+    $ bundle exec rails s
