@@ -1,9 +1,9 @@
 IrcLogViewer::Application.routes.draw do
-  resources :logs
+  resources :logs, :only => [:index, :show]
 
-  resources :nicks
+  resources :nicks, :only => :show
 
-  resources :channels
+  resources :channels, :only => :show
 
   resources :searches
 
