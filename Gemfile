@@ -40,10 +40,6 @@ gem 'kaminari'
 # for jquery
 gem 'jquery-rails'
 
-group :development do
-  gem 'rails-erd'
-end
-
 group :assets do
   gem 'therubyracer'
   gem 'sass-rails'
